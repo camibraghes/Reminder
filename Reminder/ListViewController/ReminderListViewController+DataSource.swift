@@ -13,7 +13,7 @@ extension ReminderListViewController {
         cell.contentConfiguration = contentConfiguration
         
         var doneButtonConfiguration = doneButtonConfiguration(for: reminder)
-        doneButtonConfiguration.tintColor = .todayListCellDoneButtonTint
+        doneButtonConfiguration.tintColor = UIColor(red: 0.4, green: 0.3, blue: 0.7, alpha: 1.0)
         cell.accessories = [.customView(configuration: doneButtonConfiguration), .disclosureIndicator(displayed: .always)]
         
         var backgroundConfiguration = UIBackgroundConfiguration.listGroupedCell()
