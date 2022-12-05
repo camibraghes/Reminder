@@ -1,6 +1,6 @@
 import UIKit
 
-class ReminderDoneButton {
+class ReminderDoneButton: UIButton {
     var id: Reminder.ID?
     
 }
